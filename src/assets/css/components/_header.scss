@@ -11,9 +11,17 @@ header {
 }
 
 .nav-brand{
-  width: 10%
+  width: 15%
 }
+.hamburger-menu{
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(245,82,3);
+}
+.hamburger-menu span{
   
+}
 
 .nav-links{
   display: flex;
@@ -23,6 +31,7 @@ header {
   width: 50%;  
   .navbar-nav{
     display: flex;
+    // display: none;
     width: 70%;
     flex-direction: row;
     justify-content: flex-end;
@@ -30,13 +39,14 @@ header {
       .nav-link{
         margin-left: 25px;
         color: #FFFFFF;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
       }
       .nav-link:hover{
         color: #FFCD2E;
       }
     }
   }
+  
 }
 
 .nav-link:hover{
@@ -65,11 +75,19 @@ header {
   margin-left: 5%;
   padding: 0rem 1rem;
 }
-@media (max-width: 1000px){
-  .menu__logo {
-    max-width: 400px;
-    width: 100%;
+.hamburge-menu{
+  background-color: #ffffff;
+}
+@media (max-width: 850px){
+  .hamburger-menu{
+    display:flex;
   }
+
+  .test, .nav-search{
+    display: none;
+  }
+  
+
 }
 
 
