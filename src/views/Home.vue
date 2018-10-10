@@ -10,7 +10,7 @@
         </div>
         <div class="hero-content">
             <div data-aos="fade-up" data-aos-dalay="300" data-aos-anchor-placement="top-center" class="heroTitle">
-                <p class="text-center">A research and communication platform for <strong class="hero-strong"><i>Latin American</i></strong> cities.</p>
+                <p class="text-center">A research and communication platform for Latin American cities.</p>
             </div>
             
             <div data-aos="fade-up" data-aos-delay="600"  class="btn">
@@ -25,121 +25,35 @@
         <div class="overlay"></div>
     
      </div> 
-        <div>
-        <section class="divider">
+    <div>
+        <section class="divider sec-A">
             <div data-aos="fade-right" class="divider_Title" >
                 <hr>
-                <h1>about</h1>   
+                <h1><a id="about">about</a></h1>   
                 <hr>    
             </div> 
         </section>
 
         
         <section class="about-text background-1 rowFlex spaceAround">
+        <div class="wrap-abou">
             <div data-aos="fade-left" class="vision">
                 <h1>Vision</h1>
                 <p>To reach out to citizens , businesses, students & faculty, city officials, and other organizations, to collaborate in accelerating innovation in Latin American cities. </p>
             </div>
             <div data-aos="fade-up" class="vl"></div>
-            <div data-aos="fade-right" class="mission columnFlex">
+            <div data-aos="fade-right"  class="mission">
                 <h1>Mission</h1>
                 <p>hab-la is a digital communication and research  platform to raise awareness on the challenges faces by Latin American cities.  It serves as an instrument to create a dynamic relationship between smart citizens and smart officials to build a community to develop smart cities.</p>
             </div>
-            <div class="overlayTwo"></div>
+        </div>
+            <div class="overlayTwo overlay-about"></div>
         </section>
-<!--    SECTION NEWS -->
-        <section class="divider">
-            <div class="divider_Title">
-                <hr>
-                <h1 data-aos="fade-left">news</h1>   
-                <hr>   
-                <p data-aos="fade-right">latest discussions</p> 
-            </div> 
-        </section>   
-        
-        <section class="news-content rowCenter bW">
-            <div class="w-row columnCenter flexWrapAround rowCenter">
-                <div data-aos="flip-left" class="w-row-img ">
-                    <img src="@/assets/img/slides/slide0.jpg">
-                    <div class="overlayText"><p>INFRASTRUCTURE</p> </div>
-                    <div class="overlayPic"></div>
-                </div>
-                <div data-aos="fade-up" class="h-row description">
-                    <h2>Lima without a plan after 200 years</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt fugiat exercitationem nostrum, laboriosam amet, magni voluptas illo voluptates numquam, distinctio cumque quidem quas ea laudantium porro tenetur error quisquam soluta?</p>
-                </div>
-            </div>
-            <div class="w-row flexWrapAround">
-                <div class="h-row back-color-h-row gYtoO columnCenter ">
-                     <div data-aos="flip-left" class="h-row-img rowCenter"> 
-                        <img src="@/assets/img/newsPic.png" class="img-fluid">
-                        <div class="overlayText-h-r"><p>INFRASTRUCTURE</p> </div>
-                        <div class="overlay-h-r"></div> 
-                    </div> 
-                    <div data-aos="fade-up" class="description">
-                        <h2>More than a thousand pounds of garbage collected after protests in Tegucigalpa</h2>
-                        <p>A transportation strike in Tegucigalpa delayed trash collection in the city by three days. 
-                        Although the right to protest has to be protected, it should not compromise the health of all citizens.</p>
-                    </div>
-                </div>
-                
-                <div class="h-row back-color-h-row gOtoR columnCenter ">
-                    <div data-aos="flip-right" class="h-row-img rowCenter">
-                             <img src="@/assets/img/newsPic.png" class="img-fluid">
-                            <div class="overlayText-h-r"><p>INFRASTRUCTURE</p> </div>
-                            <div class="overlay-h-r"></div>      
-                    </div>
-                    <div data-aos="fade-up" class="description">
-                        <h2>Cleaning up the Bogota river</h2>
-                        <p>The recuperation of the Bogota River is essential to preserve the urban ecosystem of the city. 
-It not only helps to maintain the flora and fauna and reduce contamination, but also becomes 
-a green corridor that includes public space for an increased social cohesion.
-</p>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="w-row flexWrapAround">
-                <div class="h-row back-color-h-row gRtoO columnCenter ">
-                     <div data-aos="flip-left" class="h-row-img rowCenter"> 
-                        <img src="@/assets/img/newsPic.png" class="img-fluid">
-                        <div class="overlayText-h-r"><p>INFRASTRUCTURE</p> </div>
-                        <div class="overlay-h-r"></div> 
-                    </div> 
-                    <div data-aos="fade-up" class="description">
-                        <h2>More than a thousand pounds of garbage collected after protests in Tegucigalpa</h2>
-                        <p>A transportation strike in Tegucigalpa delayed trash collection in the city by three days. 
-                        Although the right to protest has to be protected, it should not compromise the health of all citizens.</p>
-                    </div>
-                </div>
-                
-                <div class="h-row back-color-h-row gOtoY columnCenter ">
-                    <div data-aos="flip-right" class="h-row-img rowCenter">
-                             <img src="@/assets/img/newsPic.png" class="img-fluid">
-                            <div class="overlayText-h-r"><p>INFRASTRUCTURE</p> </div>
-                            <div class="overlay-h-r"></div>      
-                    </div>
-                    <div data-aos="fade-up" class="description">
-                        <h2>Cleaning up the Bogota river</h2>
-                        <p>The recuperation of the Bogota River is essential to preserve the urban ecosystem of the city. 
-It not only helps to maintain the flora and fauna and reduce contamination, but also becomes 
-a green corridor that includes public space for an increased social cohesion.
-</p>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="w-100 bottom-sec gRtoY">
-                <a data-aos="fade-down" href="" class="button">SEE MORE POSTS</a> 
-           </div>
-        </section>    
-       <section class="about-text background-0 columnFlex rowCenter columnCenter">
-            
-        </section>
+        <News/>
         <section class="divider">
             <div data-aos="fade-up" class="divider_Title">
                 <hr>
-                <h1>resources</h1>   
+                <h1><a id="resources">resources</a></h1>   
                 <hr>   
                 <p></p> 
             </div> 
@@ -147,10 +61,10 @@ a green corridor that includes public space for an increased social cohesion.
 
         <section class="about-text background-1 columnFlex rowCenter columnCenter">
             <div class="wrap-content columnFlex columnCenter">
-                <div data-aos="fade-down" class="vision">
+                <div data-aos="fade-down" class="resource-title">
                     <p class="text-center">Download and upload information to share the knowledge</p>
                 </div>
-                <div data-aos="fade-up" class="mission rowFlex spaceAround">
+                <div data-aos="fade-up" class="resources-btn">
                     <label>download</label>
                     <label>upload</label>
                 </div>
@@ -161,7 +75,7 @@ a green corridor that includes public space for an increased social cohesion.
         <section class="divider">
             <div class="divider_Title">
                 <hr>
-                <h1 data-aos="fade-left" >events</h1>   
+                <h1 data-aos="fade-left" ><a id="events">events</a></h1>   
                 <hr>   
                 <p data-aos="fade-right">Please follow us on facebook for additional news, articles
 and events on Latin American cities</p> 
@@ -169,25 +83,25 @@ and events on Latin American cities</p>
         </section>
         <section class="about-text background-2 rowFlex spaceAround">
          <div class="wrap-content spaceAround">
-            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800" class="events-item" >
+            <div class="events-item" >
                 <p>Sep 18 2008</p>
                 <p>Smart Cities Conference</p>
                 <p>Denver, Co.</p>
                 <p>Website</p>     
             </div>
-             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1300" class="events-item">
+             <div class="events-item">
                 <p>Sep 18 2008</p>
                 <p>Smart Cities Conference</p>
                 <p>Denver, Co.</p>
                 <p>Website</p>     
             </div>
-             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1800" class="events-item">
+             <div class="events-item">
                 <p>Sep 18 2008</p>
                 <p>Smart Cities Conference</p>
                 <p>Denver, Co.</p>
                 <p>Website</p>     
             </div>
-             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2300" class="events-item">
+             <div class="events-item">
                 <p>Sep 18 2008</p>
                 <p>Smart Cities Conference</p>
                 <p>Denver, Co.</p>
@@ -200,17 +114,17 @@ and events on Latin American cities</p>
          <section class="divider">
             <div class="divider_Title">
                 <hr>
-                <h1 data-aos="fade-left">join</h1>   
+                <h1 data-aos="fade-left"><a id="join">join</a></h1>   
                 <hr>   
-                <p data-aos="fade-up">register to know more about <strong> hab-la</strong>, upload and download information, and 
+                <p data-aos="fade-up">Register to know more about <strong> hab-la</strong>, upload and download information, and 
                     Participate in our blog
                 </p> 
             </div> 
-        </section>
+        </section> 
         <section class="form-wrap background-3 rowCenter">
             <div class="form-innerWrap  ">
                 <div class="form-title">
-                    <h3 data-aos="fade-left">register</h3>
+                    <h3 data-aos="fade-left"><a id="">register</a></h3>
                 </div>
                 <div class="flexCenterCenter ">
                     <form class="formTag">
@@ -227,7 +141,7 @@ and events on Latin American cities</p>
                             </div>                            
                             <div data-aos="fade-right" class="form-right">
                                 <label>COMMENTS</label>
-                                <textarea name="" id="" rows="10" cols="50"></textarea>
+                                <textarea name="" id="" rows="8" cols="40"></textarea>
                             </div>
                         </div>
                         <div data-aos="zoom-in-up" class="form-btn">
@@ -236,22 +150,24 @@ and events on Latin American cities</p>
                     </form>
                 </div>
             </div>
-        </section>
+        </section> 
 </div>
         <Footer/>
-  </div>
+</div>
 </template>
 
 <script>
 
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import News from '@/components/News'
 
 export default {
   name: 'Home',
   components: {
     Footer,
-    Header
+    Header,
+    News
   }
 }
 

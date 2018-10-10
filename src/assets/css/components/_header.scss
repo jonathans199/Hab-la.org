@@ -1,54 +1,118 @@
 header {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
-    padding: 1.5rem;
-    width: 100%;
-    position: absolute;
-    z-index: 7000 !important;
-    background: rgb(245,82,3);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 7000 !important;
+  background: rgb(245,82,3);
+  transition: ease-in-out .4s;
+  // padding-left: 2rem;
+  // padding-right: 2rem;
 }
-
+.padding-menu-3{
+  padding: 3rem 2rem;
+  cursor: pointer;
+}
+.padding-menu-2{
+  padding: 1rem 2rem;
+}
+.wrap-bra-bur{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 20%;
+}
 .nav-brand{
-  width: 15%
+  width: 15%;
+  cursor: pointer;
 }
-.hamburger-menu{
+// li{
+//   color: #ffffff;
+//   font-size: 14px;
+// }
+.burger-menu{
   display: none;
-  width: 40px;
-  height: 40px;
-  background-color: rgb(245,82,3);
+  width: 30%;
+  height: 25px;
+  // background-color: rgb(245,82,3);
+  background-color: transparent;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  cursor: pointer;
+  // border: 1px solid #FFCD2E;
 }
-.hamburger-menu span{
+.burger-menu input[type="checkbox"]{
+  display: block;
+  width: 35px;
+  height: 25px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 7005;
+  -webkit-touch-callout: none;
   
+}
+.burger-menu span{
+  width: 35px;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 1px;
+  transition: 0.5s;
+  border-radius: 3px;
+}
+.burger-menu input[type="checkbox"]:checked ~ span:nth-child(2) {
+  transform: rotate(-45deg) translate(-6px, 9px);
+}
+.burger-menu input[type="checkbox"]:checked ~ span:nth-child(3) {
+    margin-left: -60px;
+    opacity: 0;
+}
+.burger-menu input[type="checkbox"]:checked ~ span:nth-child(4) {
+    // background-color: blue;
+    transform: rotate(45deg) translate(-6px, -9px);
+}
+.wrap-links-search{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.dispaly-flex{
+  display:flex;
 }
 
 .nav-links{
-  display: flex;
   flex-direction: row;
   justify-content: flex-end;
   flex-grow: 1;
-  width: 50%;  
-  .navbar-nav{
-    display: flex;
-    // display: none;
-    width: 70%;
-    flex-direction: row;
-    justify-content: flex-end;
-    .nav-item{
-      .nav-link{
-        margin-left: 25px;
-        color: #FFFFFF;
-        font-size: 1.8rem;
-      }
-      .nav-link:hover{
-        color: #FFCD2E;
-      }
-    }
-  }
-  
+  width: 60%;  
 }
 
+.wrap-ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav-link{
+  margin-left: 5vh;
+  color: #FFFFFF;
+  font-size: 1.7rem;
+}
 .nav-link:hover{
   color: #FFCD2E;
 }
@@ -56,7 +120,9 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  
+  width: 40px;
+  margin-left: 10px;
+  transition: ease-in-out .5s;
     input{
       border-radius: 25px;
       border: none;
@@ -72,22 +138,59 @@ header {
 }
 .nav-search:hover .input-search{
   width: 100%;
-  margin-left: 5%;
-  padding: 0rem 1rem;
+  margin-left: 0%;
+  padding: 0rem .7rem;
 }
-.hamburge-menu{
-  background-color: #ffffff;
+.nav-search:hover {
+  width: 180px;
+ 
 }
-@media (max-width: 850px){
-  .hamburger-menu{
+.test{
+  display: none;
+}
+
+@media (max-width: 1000px){
+  .nav-link{
+    font-size: 1.8rem;
+    margin-left: 2vh;
+  } 
+}
+@media (max-width: 790px){
+  header{
+    display:flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgb(245,82,3) 10%, rgba(245,82,3, 0.2) 90%);
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .wrap-links-search{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    transition: ease-in-out 2s;
+  }
+  .display-none{
+    display: none;
+    transition: ease-in-out 2s;
+  }
+  .navbar-nav{
+    // display: none;
+    flex-direction: column !important;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
+    top: 0%;
+    right: 0;
+  }
+
+  
+  .wrap-bra-bur{
+    width: 100%;
+  }
+  .burger-menu{
     display:flex;
   }
-
-  .test, .nav-search{
-    display: none;
-  }
-  
-
 }
 
 

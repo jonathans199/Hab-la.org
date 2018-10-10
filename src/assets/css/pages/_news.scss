@@ -1,0 +1,61 @@
+
+.half-page {
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  width: 100%;
+  height: 60vh;
+}
+.carousel-news{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/img/slide1.jpg');
+}
+
+.overlay-news{
+	opacity: .4;
+	position: absolute;
+	top: 35%;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	background: #000;
+	overflow: hidden;
+	z-index: 1;
+  }
+
+  .hero-content-news{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: transparent;
+    overflow: hidden;
+    z-index: 2999;
+    // border: 1px solid blue;
+  }
+  
+  
+    
+  .hero-title-news{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-title-news p{
+    color: #ffffff;
+    font-size: 90px;
+  }

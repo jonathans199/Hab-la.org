@@ -3,20 +3,23 @@
         <footer>
             <div class="footer-wrap">
                 <div class="logo">
-                    <img src="@/assets/img/logoFooter.png">
+                    <img src="@/assets/img/hab-la_logoH40.png">
                 </div>
-                <div class="menu">
+                <div class="menu custom-scroller">
                     <ul>
-                        <li><a>HOME</a></li>
+                        <li data-route="sec-A" id="sec-A"><a>HOME</a></li>
                         <span></span>
-                        <li><a>ABOUT US</a></li>
+                        <li data-route="sec-B" id="sec-B"><a>ABOUT US</a></li>
                         <span></span>
-                        <li><a>LOG IN</a></li>
+                        <li data-route="sec-C" id="sec-C"><a>LOG IN</a></li>
                         <span></span>
-                        <li><a>REGISTER</a></li>
+                        <li data-route="sec-D" id="sec-D"><a>REGISTER</a></li>
                         <span></span>
-                        <li><a>CONTAC US</a></li>
+                        <li data-route="sec-E" id="sec-E"><a>CONTAC US</a></li>
                     </ul>
+                </div>
+                <div onclick="topFunction()" id="to-top-btn">
+                    <img src="@/assets/img/toTopIcon.png">
                 </div>
             </div>
         </footer>

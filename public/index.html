@@ -27,7 +27,51 @@
     function closeNav() {
         document.getElementById("myNav").style.height = "0%";
     }
-  </script>
+
+    function showMenu(){
+      var navLinks=document.getElementById("nav-links");
+     
+      if(navLinks.classList.contains("display-none")){
+        navLinks.classList.remove("display-none");
+      }else if(!navLinks.classList.contains("display-none")){
+        navLinks.classList.add("display-none");
+      }
+     
+    }
+
+  $(document).on("scroll", function() {
+
+    if($(document).scrollTop()>100) {
+      $("header").removeClass("padding-menu-3").addClass("padding-menu-2");
+    } else {
+      $("header").removeClass("padding-menu-2").addClass("padding-menu-3");
+    }
+
+    });
+
+window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("to-top-btn").style.display = "block";
+      } else {
+          document.getElementById("to-top-btn").style.display = "none";
+      }
+}
+// When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+function closeMenu(){
+  var input = document.getElementById("input-burger");
+  if( input.checked = 'true'){
+        input.checked = 'false';
+      }
+}
+  
+</script>
+  
 
 
 </html>
