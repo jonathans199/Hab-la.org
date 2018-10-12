@@ -1,15 +1,15 @@
 <template>
     <div>
-        <section class="divider sec-B">
+        <!-- <section class="divider sec-B">
             <div class="divider_Title">
                 <hr>
                 <h1 data-aos="fade-left"><a id="news">news</a></h1>   
                 <hr>   
                 <p data-aos="fade-right">latest discussions</p> 
             </div> 
-        </section>   
+        </section>    -->
         
-         <section class="news-content rowCenter bW">
+         <section class="news-content rowCenter bW margin-bottom">
             <div class="w-row columnCenter flexWrapAround rowCenter bR padding-up-down">
                 <div  class="w-row-img ">
                     <img src="@/assets/img/slides/slide0.jpg" class="img-fluid">
@@ -80,11 +80,13 @@
                 </div>
                 
             </div>
-            <div class="w-100 bottom-sec">
-                <router-link tag="a" :to="{name:'news'}">
-                    <a href="" class="button">SEE MORE POSTS</a> 
-                </router-link>
-           </div> 
+            <div class="w-100 paddding-around">
+                <div class="wrap-btn">
+                    <router-link class="btn padding-2rem" tag="a" :to="{name:'news'}">
+                        SEE MORE POSTS
+                    </router-link>
+                </div> 
+           </div>
         </section>  
     </div>
 </template>

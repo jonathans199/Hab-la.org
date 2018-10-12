@@ -30,11 +30,22 @@
 
     function showMenu(){
       var navLinks=document.getElementById("nav-links");
+      var input = document.getElementById("input-burger");
+     
      
       if(navLinks.classList.contains("display-none")){
         navLinks.classList.remove("display-none");
-      }else if(!navLinks.classList.contains("display-none")){
+        navLinks.classList.add("nav-links-height");
+        
+        
+      }else if(!navLinks.classList.contains("display-none") && navLinks.classList.contains("nav-links-height")){
         navLinks.classList.add("display-none");
+        navLinks.classList.remove("nav-links-height");
+        input.checked = false;  
+        
+      }else if(!navLinks.classList.contains("display-none") && !navLinks.classList.contains("nav-links-height")){
+        navLinks.classList.add("nav-links-height"); 
+        // navLinks.display = "flex";
       }
      
     }
@@ -62,14 +73,23 @@ window.onscroll = function() {scrollFunction()};
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
-
-function closeMenu(){
-  var input = document.getElementById("input-burger");
-  if( input.checked = 'true'){
-        input.checked = 'false';
-      }
-}
-  
+    
+    function closeMenu(){
+      var input = document.getElementById("input-burger");
+      input.checked = false;    
+    }
+    function closeMenu(){
+      var input = document.getElementById("input-burger");
+      input.checked = false;
+    }
+    $('.input-search').keydown( function( event ) {
+    if ( event.which === 13 ) {
+        closeMenu();
+        showMenu();
+        event.preventDefault();
+        return false;
+    }
+});
 </script>
   
 

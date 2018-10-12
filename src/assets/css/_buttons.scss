@@ -1,9 +1,67 @@
-.vv-button {
-    padding: 1rem 4rem;
-    font-size: 2rem;
-    font-weight: 100;
-    background: #ffffff1a;
-    border: solid 1px #707070;
-    color: #707070;
-    letter-spacing: .5rem;
+
+.padding-2rem{
+  padding: 1rem 2rem;
+}
+
+.padding-6rem{
+  padding: 1rem 6rem;
+}
+.w-wrap-btn-hero{
+  width: 0%;
+}
+.w-wrap-btn-register{
+  width: 100% !important;
+}
+.wrap-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  
+  .btn {
+    background-color: #f55203;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .5s;
   }
+}
+
+.wrap-btn:hover .btn{
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.resources-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 330px;
+  // border: 1px solid red;
+}
+.resources-btn input{
+  border: 1px solid rgba(255, 255, 255,.2);
+  background-color: rgba(255, 255, 255,.2);
+  border-radius: 40px;
+  padding: .5rem 0rem;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  transition: ease-in-out .5s;
+}
+
+
+  .first-child:hover{
+    border: 1px solid #ffffff;
+  }
+  .second-child:hover{
+    border: 1px solid #ffffff;
+    }

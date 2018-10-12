@@ -13,8 +13,8 @@
                 <p class="text-center">A research and communication platform for Latin American cities.</p>
             </div>
             
-            <div data-aos="fade-up" data-aos-delay="600"  class="btn">
-                <input type="button" value="JOIN THE CONVERSATION">
+            <div data-aos="fade-up" data-aos-delay="600"  class="wrap-btn w-wrap-hero">
+                <input class="btn padding-2rem" type="button" value="JOIN THE CONVERSATIO">
             </div>
             <div data-aos="fade-up" data-aos-offset="70" class="media">
                 <img src="@/assets/img/mediaEmail.png" alt="">
@@ -26,10 +26,10 @@
     
      </div> 
     <div>
-        <section class="divider sec-A">
+        <section class="divider sec-A" id="about">
             <div data-aos="fade-right" class="divider_Title" >
                 <hr>
-                <h1><a id="about">about</a></h1>   
+                <h1><a>about</a></h1>   
                 <hr>    
             </div> 
         </section>
@@ -49,11 +49,19 @@
         </div>
             <div class="overlayTwo overlay-about"></div>
         </section>
+        <section class="divider sec-B" id="news">
+            <div class="divider_Title">
+                <hr>
+                <h1 data-aos="fade-left"><a>news</a></h1>   
+                <hr>   
+                <p data-aos="fade-right">latest discussions</p> 
+            </div> 
+        </section> 
         <News/>
-        <section class="divider">
+        <section class="divider" id="resources">
             <div data-aos="fade-up" class="divider_Title">
                 <hr>
-                <h1><a id="resources">resources</a></h1>   
+                <h1><a>resources</a></h1>   
                 <hr>   
                 <p></p> 
             </div> 
@@ -65,17 +73,17 @@
                     <p class="text-center">Download and upload information to share the knowledge</p>
                 </div>
                 <div data-aos="fade-up" class="resources-btn">
-                    <label>download</label>
-                    <label>upload</label>
+                    <input class="first-child" type="button" value="download">
+                    <input class="second-child" type="button" value="upload">
                 </div>
             </div>
            <div class="overlayTwo"></div>
         </section>
 
-        <section class="divider">
+        <section class="divider" id="events">
             <div class="divider_Title">
                 <hr>
-                <h1 data-aos="fade-left" ><a id="events">events</a></h1>   
+                <h1 data-aos="fade-left" ><a>events</a></h1>   
                 <hr>   
                 <p data-aos="fade-right">Please follow us on facebook for additional news, articles
 and events on Latin American cities</p> 
@@ -111,10 +119,10 @@ and events on Latin American cities</p>
             <div class="overlayTwo"></div>
         </section>
 
-         <section class="divider">
+         <section class="divider" id="join">
             <div class="divider_Title">
                 <hr>
-                <h1 data-aos="fade-left"><a id="join">join</a></h1>   
+                <h1 data-aos="fade-left"><a>join</a></h1>   
                 <hr>   
                 <p data-aos="fade-up">Register to know more about <strong> hab-la</strong>, upload and download information, and 
                     Participate in our blog
@@ -144,8 +152,11 @@ and events on Latin American cities</p>
                                 <textarea name="" id="" rows="8" cols="40"></textarea>
                             </div>
                         </div>
-                        <div data-aos="zoom-in-up" class="form-btn">
-                            <input type="button" value="SEND">
+                        <!-- <div data-aos="zoom-in-up" class="wrap-btn .w-wrap-btn-register">
+                            <input class="btn" type="button" value="SEND">
+                        </div> -->
+                         <div data-aos="fade-up" data-aos-delay="600"  class="wrap-btn ">
+                            <input class="btn w-wrap-register padding-6rem" type="button" value="SEND">
                         </div>
                     </form>
                 </div>

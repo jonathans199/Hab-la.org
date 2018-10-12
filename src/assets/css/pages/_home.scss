@@ -138,7 +138,9 @@ body, html {
 .columnCenter{
   align-items: center;
 }
-
+strong{
+  color: #F7931E;
+}
 /*BACKGROUND IMG HERO*/
 .carouselIR{
     width: 100%;
@@ -230,19 +232,8 @@ body, html {
   font-size: 5vh;
   font-weight: 200;
 }
-.hero-content .btn{
-  border-radius: 50px;
-  border: none;
-  background-color: #f55203;
-  width: 25rem;
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
-}
-.btn input{
-  background-color: transparent;
-  border:none;
-  color: #ffffff;
-}
+
+
 .media{
   img{
     padding: 0rem 2rem 2rem 0rem;
@@ -481,7 +472,7 @@ section{
   position: absolute; /* Sit on top of the page content */
   width: 40%; /* Full width (cover the whole page) */
   height: 10px; /* Full height (cover the whole page) */
-  top: 2%; 
+  top: 3%; 
   left: 0%;
   z-index: 11;
   p{
@@ -526,31 +517,6 @@ section{
 .padding-around{
   padding: 2rem 1rem;
 }
-.bottom-sec{
-  display: flex;
-  flex-direction: row;
-  // align-items: center;
-  justify-content: center;
-  padding: 3rem;
-}
-  .button{
-    color: #FFFFFF;
-    padding: 1rem 2rem;
-    border: 1px solid #f55203;
-    border-radius: 30px;
-    text-decoration: none;
-    background-color: #f55203;
-    cursor: pointer;
-    transition:  ease-in-out 3s;
-  }
-  .button:hover{
-    font-size: 14px;
-    letter-spacing: .5px;
-    width: 180px;
-    height: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
-  
-  }
 
 /*RESOURCES*/
 
@@ -558,22 +524,11 @@ section{
   margin-bottom: 50px;
 
 }
-.resources-btn{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 350px;
-  // border: 1px solid red;
-}
-.resources-btn label{
-  border: 1px solidrgba(255, 255, 255,.2);
-  background-color: rgba(255, 255, 255,.2);
-  border-radius: 40px;
-  padding: .5rem 0rem;
-  cursor: pointer;
-  width: 150px;
-  text-align: center;
-  // border: 1px solid red;
+/*EVENTS*/
+.events-item p:first-child{
+  // color: #f55203;
+  color: #FFCD2E;
+  font-weight: bold;
 }
 /*FORM*/
 .form-wrap{
@@ -675,37 +630,6 @@ input:focus{
 textarea:focus{
   outline: none;
 }
-.form-btn{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 45px;
-  width: 200px;
-  border: none;
-  margin: 2rem;
-  input[type=button] {
-    background-color: #f55203;
-    border: none;
-    color: white;
-    width: 80%;
-    height: 80%;
-    text-decoration: none;
-    border-radius: 20px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 15px;
-    transition: .5s;
-  }
-}
-
-.form-btn:hover input{
-  font-size: 17px;
-  letter-spacing: 1px;
-  width: 82%;
-  height: 82%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
-}
-
 .formTag{
   display: flex;
   flex-direction: column;
@@ -714,7 +638,6 @@ textarea:focus{
   height: 80%;
   // border: 1px solid blue;
 }
-
 .form-inputWrap{
   display: flex;
   //flex-direction: row;
@@ -723,7 +646,6 @@ textarea:focus{
   height: 80%;
   width: 100%;
 }
-
 @media (max-width: 1030px) { 
   .h-row-img{
     width: 400px;
@@ -737,7 +659,10 @@ textarea:focus{
   
 }
 
-@media (max-width: 850px) { 
+@media (max-width: 850px) {
+  .resource-title{
+    width: 50%;
+  } 
   .heroTitle{
     p{
       width: 50%;
@@ -839,6 +764,8 @@ textarea:focus{
       align-items: center;
     }
   }
+
+ 
   @media (max-width: 400px) { 
     header{
       width: 100%;
@@ -854,5 +781,7 @@ textarea:focus{
     .background-3{
       height: 1000px !important;
     }
-    
+    .resource-title{
+      width: 80%;
+    }
   }
