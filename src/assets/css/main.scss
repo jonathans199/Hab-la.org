@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('/fonts/Futura.ttc'); 
+   
+  }
 *,
 *::after,
 *::before {
@@ -7,7 +12,8 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
+    font-family: 'Futura';
     box-sizing: border-box;
   }
 
@@ -22,3 +28,5 @@ section {
 @import 'components/_footer.scss';
 @import '_buttons.scss';
 @import 'pages/_news.scss';
+@import 'components/modal.scss';
+@import 'components/_login.scss';

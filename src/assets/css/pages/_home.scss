@@ -1,5 +1,4 @@
 /*IMPORT FONTS*/
-@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
 
 /* VARIABLES DECLARATION */
 
@@ -291,11 +290,19 @@ section{
     font-size: 1.5rem;
     color: #ffffff; 
 }
+.flex-column-about{
+  display: flex;
+      align-items: center;
+      text-align: justify;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 70%;
+}
     .wrap-abou{
       display: flex;
       align-items: center;
       text-align: justify;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-around;
       width: 100%;
     }
@@ -577,9 +584,10 @@ align-items: center;
   width: 80%;
   // margin-left: 10rem;
   label{
-    color:#606060;
-    font-size: 15px;
-    font-weight: 500;
+    font-family: 'Futura';
+    color:#3a3939;
+    font-size: 17px;
+    font-weight: bold !important;
     padding: 0rem 0rem 0rem 1.5rem;
     // margin-right:  10rem;
   }
@@ -614,9 +622,9 @@ input:focus{
   // margin-right: 10rem;
   // border: 1px solid yellow;
   label{
-    color:#606060;
-    font-size: 15px;
-    font-weight: 500;
+    color:#3a3939;
+    font-size: 17px;
+    font-weight: bold !important;
     padding: 0rem 0rem 0rem 1.5rem;
   }
   textarea{
@@ -682,7 +690,7 @@ textarea:focus{
     width: 400px;
   }
 
-  .wrap-abou{
+  .flex-column-about{
     display: flex;
     justify-content:  !important;
     align-items: center;

@@ -18,10 +18,30 @@
                         <li data-route="sec-E" id="sec-E"><a>CONTAC US</a></li>
                     </ul>
                 </div>
-                <div onclick="topFunction()" id="to-top-btn">
+                <div @click="goToByScroll('home')" id="to-top-btn">
                     <img src="@/assets/img/toTopIcon.png">
                 </div>
             </div>
         </footer>
     </div>
 </template>
+<script>
+    import $ from 'jquery'
+    import jsFunctions from "@/jsFiles/jsFunctions.js"
+    export default {
+        name: 'Header',
+
+        mounted(){
+    
+        },
+
+        methods: {
+            goToByScroll(id) {
+                $('html,body').animate(
+                    { scrollTop: $('#' + id).offset().top },
+                    'slow'
+                )
+            }, 
+        }
+    }
+</script>

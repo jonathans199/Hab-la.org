@@ -84,9 +84,6 @@ header {
 .dispaly-flex{
   display:flex;
 }
-
-
-
 .wrap-links{
   display: flex;
   flex-direction: row;
@@ -102,16 +99,13 @@ header {
 .nav-link:hover{
   color: #FFCD2E;
 }
-
 .wrap-nav{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   width: 80%;  
   height: 100%;
- 
   transition: ease-in-out 1s;
-  // align-items: flex-start;
 }
 .nav-search{
   display: flex;
@@ -128,10 +122,12 @@ header {
       width: 0%;
       transition: ease-in-out .5s;
     }
-
   .search-icon:hover{
     cursor: pointer;
   }
+}
+.display-none{
+  
 }
 .nav-search:hover .input-search{
   width: 100%;

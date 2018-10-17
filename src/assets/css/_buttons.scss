@@ -37,7 +37,7 @@
   letter-spacing: 1px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 }
-
+/* RESOURCES BUTTONS */
 .resources-btn{
   display: flex;
   flex-direction: row;
@@ -65,3 +65,28 @@
   .second-child:hover{
     border: 1px solid #ffffff;
     }
+/*PARNERS BUTTON*/
+.wrap-partners-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 330px;
+  z-index: 20;
+}
+.partners-btn{
+  border: 1px solid rgba(255, 255, 255,.2);
+  background-color: rgba(255, 255, 255,.2);
+  border-radius: 40px;
+  padding: .5rem 0rem;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  transition: ease-in-out .5s;
+
+}
+.partners-btn:hover{
+  border: 1px solid #ffffff;
+  // letter-spacing: 1px;
+  }
