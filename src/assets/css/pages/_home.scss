@@ -61,6 +61,7 @@ $Background-list: "/img/aboutPic.png" "/img/eventPic.png" "/img/registerPic.png"
 }
 .bR{
   background-color: #f55203;
+  // background-color: rgba(247,147,30,.9);
 }
 .bN{
   background-color: #F7931E;
@@ -137,8 +138,12 @@ body, html {
 .columnCenter{
   align-items: center;
 }
-strong{
-  color: #F7931E;
+// strong{
+//   color: #F7931E !important;
+// }
+
+.color-orange{
+  color: #F7931E !important;
 }
 /*BACKGROUND IMG HERO*/
 .carouselIR{
@@ -519,7 +524,7 @@ section{
   }
 }
 .padding-up-down{
-  padding: 6rem 0rem 2rem 0rem;
+  padding: 3rem 0rem 2rem 0rem;
 }
 .padding-around{
   padding: 2rem 1rem;
@@ -537,6 +542,16 @@ section{
   color: #FFCD2E;
   font-weight: bold;
 }
+.events-item a{
+  color: #ffffff;
+
+}
+
+.events-item a:hover{
+  color: #FFCD2E;
+  text-decoration: none;
+}
+
 /*FORM*/
 .form-wrap{
   position: relative;

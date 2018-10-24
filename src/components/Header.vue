@@ -21,7 +21,7 @@
                             <router-link  class="nav-link" :to="{ name: 'home', query: { section: 'about' } }">about</router-link>
                         </li>
                         <li @click="goToByScroll('news')" class="nav-item" data-route="sec-B" id="sec-B" >
-                            <router-link  class="nav-link" :to="{ name: 'home', query: { section: 'news' } }">news</router-link>
+                            <router-link  class="nav-link" :to="{ name: 'home', query: { section: 'news' } }">articles</router-link>
                         </li>
                         <li @click="goToByScroll('resources'); showMenu()" class="nav-item" data-route="sec-C" id="sec-C" >
                             <router-link  class="nav-link" :to="{ name: 'home', query: { section: 'resources' } }">resources</router-link>

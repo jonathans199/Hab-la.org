@@ -14,7 +14,7 @@
             </div>
             
             <div data-aos="fade-up" data-aos-delay="600"  class="wrap-btn w-wrap-hero">
-                <input class="btn padding-2rem" type="button" value="JOIN THE CONVERSATIO">
+                <input class="btn padding-2rem" type="button" value="JOIN THE CONVERSATION">
             </div>
             <div data-aos="fade-up" data-aos-offset="70" class="media">
                 <img src="@/assets/img/mediaEmail.png" alt="">
@@ -60,7 +60,7 @@
         <section class="divider sec-B" id="news">
             <div class="divider_Title">
                 <hr>
-                <h1 data-aos="fade-left"><a>news</a></h1>   
+                <h1 data-aos="fade-left"><a>articles</a></h1>   
                 <hr>   
                 <p data-aos="fade-right">latest discussions</p> 
             </div> 
@@ -93,17 +93,18 @@
                 <hr>
                 <h1 data-aos="fade-left" ><a>events</a></h1>   
                 <hr>   
-                <p data-aos="fade-right">Please follow us on facebook for additional news, articles
-and events on Latin American cities</p> 
+                <p data-aos="fade-right">Please follow us on social media for additional news, articles and events on Latin American cities.</p> 
             </div> 
         </section>
         <section class="about-text background-2 rowFlex spaceAround">
+            
          <div class="wrap-content spaceAround">
+        
             <div class="events-item" >
-                <p>Sep 18 2008</p>
-                <p>Smart Cities Conference</p>
-                <p>Denver, Co.</p>
-                <p>Website</p>     
+                <p>Nov 07-Nov 10</p>
+                <p>NLC National League of Cities</p>
+                <p>Los Angeles, CA.</p>
+                <a href="https://www.nlc.org/event/city-summit">www.nlc.org/event/city-summit </a>     
             </div>
              <div class="events-item">
                 <p>Sep 18 2008</p>
@@ -115,7 +116,8 @@ and events on Latin American cities</p>
                 <p>Sep 18 2008</p>
                 <p>Smart Cities Conference</p>
                 <p>Denver, Co.</p>
-                <p>Website</p>     
+                <p>Website</p>  
+                  
             </div>
              <div class="events-item">
                 <p>Sep 18 2008</p>
@@ -125,6 +127,7 @@ and events on Latin American cities</p>
             </div>
          </div>
             <div class="overlayTwo"></div>
+            
         </section>
 
          <section class="divider" id="join">
@@ -132,8 +135,8 @@ and events on Latin American cities</p>
                 <hr>
                 <h1 data-aos="fade-left"><a>join</a></h1>   
                 <hr>   
-                <p data-aos="fade-up">Register to know more about <strong> hab-la</strong>, upload and download information, and 
-                    Participate in our blog
+                <p data-aos="fade-up">Register to know more about <strong class="color-orange"> hab-la</strong>, upload and download information, and 
+                    participate in our blog
                 </p> 
             </div> 
         </section> 
