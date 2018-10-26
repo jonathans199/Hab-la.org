@@ -7,7 +7,7 @@
             </div>
             <div class="hero-content-news">
                 <div data-aos="fade-up"  class="hero-title-news">
-                    <p class="text-center">NEWS</p>
+                    <p class="text-center">articles</p>
                 </div>  
             </div>
             <div class="overlay-news"></div>
