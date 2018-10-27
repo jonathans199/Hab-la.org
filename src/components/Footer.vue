@@ -7,15 +7,15 @@
                 </div>
                 <div class="menu custom-scroller">
                     <ul>
-                        <li data-route="sec-A" id="sec-A"><a>HOME</a></li>
+                        <li data-route="sec-A" id="sec-A"><a>home</a></li>
                         <span></span>
-                        <li data-route="sec-B" id="sec-B"><a>ABOUT US</a></li>
+                        <li data-route="sec-B" id="sec-B"><a>about us</a></li>
                         <span></span>
-                        <li data-route="sec-C" id="sec-C"><a>LOG IN</a></li>
+                        <li data-route="sec-C" id="sec-C"><a>log in</a></li>
                         <span></span>
-                        <li data-route="sec-D" id="sec-D"><a>REGISTER</a></li>
+                        <li data-route="sec-D" id="sec-D"><a>join</a></li>
                         <span></span>
-                        <li data-route="sec-E" id="sec-E"><a>CONTAC US</a></li>
+                        <li data-route="sec-E" id="sec-E"><a>contact us</a></li>
                     </ul>
                     
                 </div>
