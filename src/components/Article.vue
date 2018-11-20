@@ -1,5 +1,7 @@
 <template>
     <div>
+      <Header> </Header>
+       
         <!-- <section class="divider sec-B">
             <div class="divider_Title">
                 <hr>
@@ -9,7 +11,7 @@
             </div> 
         </section>    -->
         
-         <section class="news-content rowCenter bW margin-bottom">
+        <section class="news-content rowCenter bW margin-bottom">
              <div class="title-featured"><h2>Featured story</h2></div>
             <div class="w-row columnCenter flexWrapAround rowCenter bR padding-up-down">
                 <!-- <div class="title-feature"><h2>Fearutre story</h2></div> -->
@@ -90,5 +92,24 @@
                 </div> 
            </div>
         </section>  
+        <Footer/>
     </div>
 </template>
+
+<script>
+import Header from '@/components/Header'
+import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
+
+
+export default {
+
+      name: 'Article',
+      components: {
+        Header,
+        Contact,
+        Footer,
+      },
+    
+}
+</script>
