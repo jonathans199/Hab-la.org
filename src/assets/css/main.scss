@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'MyWebFont';
-    src: url('/fonts/Futura.ttc'); 
+    
+    // font-family: 'MyWebFont';
+    // src: url('/fonts/Futura.ttc'); 
    
   }
 *,
@@ -12,8 +13,10 @@
 }
 
 body {
+    
     // font-family: 'Montserrat', sans-serif;
-    font-family: 'MyWebFont';
+    // font-family: 'MyWebFont';
+    font-family: 'Futura-Bold', arial;
     box-sizing: border-box;
   }
 

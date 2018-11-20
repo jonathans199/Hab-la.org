@@ -30,18 +30,18 @@
                             <router-link  class="nav-link" :to="{ name: 'home', query: { section: 'events' } }">events</router-link>
                         </li>
                         <li @click="goToByScroll('join'); showMenu()" class="nav-item" data-route="sec-E" id="sec-E" >
-                            <router-link  class="nav-link" :to="{ name: 'home', query: { section: 'join' } }">join</router-link>
+                            <router-link  class="nav-link" :to="{ name: 'home', query: { section: 'join' } }">contact</router-link>
                         </li>
-                        <li @click="openModal()" class="nav-item" data-route="sec-F" id="sec-F" >
+                        <!-- <li @click="openModal()" class="nav-item" data-route="sec-F" id="sec-F" >
                             <router-link class="nav-link" :to="{ name: 'home' }">log in</router-link>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                
-                <div class="nav-search">
+                <!-- <div class="nav-search">
                     <input type="text" class="input-search" id="searchI" @keydown.enter="showClearInput()" @mouseover="elementFocus()">
                     <img class="search-icon" alt="Vue logo" src="@/assets/img/search.png">
-                </div>
+                </div> -->
             </div>
         </header>
         <Login/>
