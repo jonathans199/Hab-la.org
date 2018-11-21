@@ -1,4 +1,3 @@
-# viviela.com
 
 ## Project setup
 ```
